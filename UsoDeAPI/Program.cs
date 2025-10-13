@@ -47,10 +47,11 @@ var client2 = new HttpClient();
 client2.DefaultRequestHeaders.Add("Authorization", "Bearer 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");
 client2.DefaultRequestHeaders.Add("HTTP-Referer", "https://github.com/");
 client2.DefaultRequestHeaders.Add("X-Title", "UsoDeAPI");
+client2.DefaultRequestHeaders.Add("Accept", "application/json");
 
 var json2 = new
 {
-    model = "openai/gpt-oss-20b:freet",
+    model = "gryphe/mythomax-l2-13b",
     messages = new[]
     {
                 new { role = "OnelBethx", content = mensaje }
@@ -61,5 +62,23 @@ var content = new StringContent(System.Text.Json.JsonSerializer.Serialize(json2)
 var response2 = await client2.PostAsync("https://openrouter.ai/api/v1/chat/completions", content);
 var result = await response2.Content.ReadAsStringAsync();
 
-var jsonObj = JObject.Parse(result);
-Console.WriteLine(jsonObj["choices"][0]["message"]["content"]);
+if (!response2.IsSuccessStatusCode)
+{
+    Console.WriteLine("Error en la petición: " + response2.StatusCode);
+    return;
+}
+
+try
+{
+    var jsonObj = JObject.Parse(result);
+    var message = jsonObj["choices"]?[0]?["message"]?["content"]?.ToString();
+
+    if (string.IsNullOrEmpty(message))
+        Console.WriteLine("El modelo no devolvió ningún mensaje.");
+    else
+        Console.WriteLine("Respuesta del modelo:\n" + message);
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Error al analizar JSON: " + ex.Message);
+}
