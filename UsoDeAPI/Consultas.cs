@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace UsoDeAPI
 {
-    public static class Consultas
+    public class Consultas
     {
+
         //Consulta de prueba, filtrar la cantidad de publicaciones por userId
         public static List<Objet> FiltrarPorUserId(List<Objet> posts, int userId)
         {
