@@ -36,11 +36,3 @@ foreach (var p in posts.Take(3))
     Console.WriteLine($"Título: {p.title}");
     Console.WriteLine($"Cuerpo: {p.body}\n");
 }
-
-
-ConsultaIA EnviarPregunta = new ConsultaIA();
-
-Console.Write("Escribe tu mensaje: ");
-string mensaje = Console.ReadLine();
-
-Console.WriteLine(await EnviarPregunta.ConsultIAAsync(mensaje));
