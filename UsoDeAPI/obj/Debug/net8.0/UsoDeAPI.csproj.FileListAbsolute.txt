@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\alexi\Documents\SVG\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.csproj.AssemblyReference.cache
 C:\Users\alexi\Documents\SVG\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\alexi\Documents\SVG\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.AssemblyInfoInputs.cache
@@ -16,3 +17,20 @@ C:\Users\alexi\Documents\SVG\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\r
 C:\Users\alexi\Documents\SVG\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.pdb
 C:\Users\alexi\Documents\SVG\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.genruntimeconfig.cache
 C:\Users\alexi\Documents\SVG\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\ref\UsoDeAPI.dll
+=======
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\bin\Debug\net8.0\UsoDeAPI.exe
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\bin\Debug\net8.0\UsoDeAPI.deps.json
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\bin\Debug\net8.0\UsoDeAPI.runtimeconfig.json
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\bin\Debug\net8.0\UsoDeAPI.dll
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\bin\Debug\net8.0\UsoDeAPI.pdb
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.AssemblyInfoInputs.cache
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.AssemblyInfo.cs
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.csproj.CoreCompileInputs.cache
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.sourcelink.json
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.dll
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\refint\UsoDeAPI.dll
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.pdb
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\UsoDeAPI.genruntimeconfig.cache
+C:\Users\HP_15Tq\Documents\Lab1_API\Proyecto1_S4_Uso-de-API\UsoDeAPI\obj\Debug\net8.0\ref\UsoDeAPI.dll
+>>>>>>> 8cb20f8d92085cb613c44bf32212504fdeeeb72c
