@@ -7,7 +7,6 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "UsoDeAPI/1.0.0": {
-<<<<<<< HEAD
         "dependencies": {
           "Newtonsoft.Json": "13.0.4"
         },
@@ -22,11 +21,6 @@
             "fileVersion": "13.0.4.30916"
           }
         }
-=======
-        "runtime": {
-          "UsoDeAPI.dll": {}
-        }
->>>>>>> 8cb20f8d92085cb613c44bf32212504fdeeeb72c
       }
     }
   },
@@ -35,7 +29,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-<<<<<<< HEAD
     },
     "Newtonsoft.Json/13.0.4": {
       "type": "package",
@@ -43,8 +36,6 @@
       "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
       "path": "newtonsoft.json/13.0.4",
       "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
-=======
->>>>>>> 8cb20f8d92085cb613c44bf32212504fdeeeb72c
     }
   }
 }
