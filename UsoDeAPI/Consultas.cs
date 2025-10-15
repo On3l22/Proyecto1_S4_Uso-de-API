@@ -80,7 +80,7 @@ namespace UsoDeAPI
         // Agrupar por número par/impar de ID
         public static Dictionary<string, List<Objet>> AgruparPorParidadID(List<Objet> posts) =>
             posts.GroupBy(p => p.id % 2 == 0 ? "Par" : "Impar")
-                 .ToDictionary(g => g.Key, g => g.ToList());
+            .ToDictionary(g => g.Key, g => g.ToList());
 
         // Combinar filtros usuario palabra clave
         public static List<Objet> FiltrarUsuarioYPalabra(List<Objet> posts, int userId, string palabra) =>
